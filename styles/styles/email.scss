@@ -1,0 +1,24 @@
+@import 'styles.scss';
+@import 'variables.scss';
+
+.create-password-container{
+    justify-items: center;
+}
+.icon-email{
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: $text-input-field;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 24px;   
+    .logo-email {
+        width: 80px;
+    }
+}
+.resend{
+    color: $hospital-green;
+    text-decoration: none;
+}
+
